@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 19
+names: ['Anda -BISINDO-', 'Apa -BISINDO-', 'Berhenti -BISINDO-', 'Bodoh -BISINDO-', 'Cantik -BISINDO-', 'Halo -BISINDO-', 'Hati-hati -BISINDO-', 'Lelah -BISINDO-', 'Maaf -BISINDO-', 'Makan -BISINDO-', 'Mau-Ingin -BISINDO-', 'Membaca -BISINDO-', 'Nama -BISINDO-', 'Sama-sama -BISINDO-', 'Saya -BISINDO-', 'Siapa -BISINDO-', 'Sombong -BISINDO-', 'Takut -BISINDO-', 'Terima kasih -BISINDO-']
+
+roboflow:
+  workspace: jonathan-toga-sihotang
+  project: terbisa
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/jonathan-toga-sihotang/terbisa/dataset/3
